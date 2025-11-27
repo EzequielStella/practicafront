@@ -99,7 +99,7 @@ iframe{
 }
 
 section{
-    flex: 1;
+    
     margin: 20px;
 }
 
@@ -152,7 +152,10 @@ li{
     position: fixed;
     top: 0;
     left: 0;
-}   
+}
+
+
+
 
 .multimedia{
     display: block;
