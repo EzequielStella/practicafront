@@ -34,6 +34,18 @@ a{
     ;
 
 }
+.boton{
+    align-content: center;
+}
+button{
+    border-radius: 10px;
+    background-color: #34a0a4;
+    margin: 5px;
+    padding: 5px;
+}
+button:hover{
+    background-color: aliceblue;
+}
 .navegacion a{
 
     color: #1b263b;
