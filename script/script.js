@@ -1,4 +1,4 @@
-function modoOscuro(){
+/*function modoOscuro(){
     document.getElementById("header").style.backgroundColor = "#44403B";
     document.getElementById("nav").style.backgroundColor = "#292524";
     document.querySelector("h1").style.color = "aliceblue";
@@ -17,4 +17,25 @@ function modoOscuro(){
     }) 
     document.getElementById("lista2").style.backgroundColor = "#57534D";
     
+}*/
+
+/*MODO OSCURO*/ 
+
+function toggleModo(){
+    const body = document.body;
+    const boton = document.getElementById("button");
+
+    body.classList.toggle("modo-oscuro")
+
+    if (body.classList.contains("modo-oscuro")){
+        boton.textContent = "Modo Normal"
+    }else{
+        boton.textContent = "Modo Oscuro"
+    }
+}
+
+/*INFORMACION*/ 
+
+function Informacion(){
+    alert("© 2025 Eze. Sitio web personal. Contacto: ezequielstella09@gmail.com. Hecho con 💙 en Argentina.")
 }

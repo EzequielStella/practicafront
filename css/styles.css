@@ -63,8 +63,8 @@ button:hover{
 }
 .imagen{
     border-radius: 30px;   
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     padding: 10px;
 }
 
@@ -159,11 +159,11 @@ li{
 .flotante{
     width: 60px;
     height: 60px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     position: fixed;
-    top: 0;
-    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -223,4 +223,67 @@ footer{
     width: 300px;
     height: 150px;
     margin: 10px;
+}
+
+/* MODO OSCURO */
+
+.modo-oscuro {
+    background-color: #262626;
+}
+
+.modo-oscuro #header {
+    background-color: #44403B;
+}
+
+.modo-oscuro #nav {
+    background-color: #292524;
+}
+
+.modo-oscuro h1 {
+    color: aliceblue;
+}
+
+.modo-oscuro #contenedor {
+    background-color: #262626;
+}
+
+/*.modo-oscuro #container {
+    background-color: #44403B;
+}*/
+
+.modo-oscuro #footer {
+    background-color: #44403B;
+}
+
+.modo-oscuro #lateral {
+    background-color: #27272A;
+}
+
+.modo-oscuro h2{
+    color: aliceblue;
+    background-color: #57534D;
+}
+
+.modo-oscuro #subtitulo1,
+.modo-oscuro #subtitulo2 {
+    background-color: #57534D;
+    color: aliceblue;
+}
+
+.modo-oscuro #lista,
+.modo-oscuro #lista2 {
+    background-color: #57534D;
+}
+
+.modo-oscuro li {
+    color: aliceblue;
+}
+
+.modo-oscuro .card-body{
+    background-color: #292524;
+    color: aliceblue;
+}
+
+.modo-oscuro .enlaces {
+    background-color: #292524;
 }
