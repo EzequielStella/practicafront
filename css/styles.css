@@ -9,7 +9,6 @@ body{
     margin: 0;
 }
 .encabezado{
-    height: 120px;
     background-color: #248277 ;
     display: flex;
     flex-wrap: wrap;
@@ -28,10 +27,8 @@ a{
     background-color: #058958;
     display: flex;
     justify-content: center;
-    
-    margin-right: 20px
-    
-    ;
+    border-radius: 20px;
+    margin-right: 20px;
 
 }
 .boton{
